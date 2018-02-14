@@ -1,0 +1,845 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+/*GENERAL STYLES*/
+
+.description {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    padding: 0;
+}
+
+.description > div.descript {
+    position: absolute;
+    width: 75%;
+
+}
+
+.description > div p {
+    margin: 0 5%;
+}
+
+.li-color-quote {
+    color: #d1d1d1;
+}
+
+/*.description > div */
+
+span {
+    font-family: 'Kalam', cursive;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.span-sm {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/*SECTION Main*/
+
+#main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/1.jpg);
+    background-size: 120%;
+    background-attachment: fixed;
+
+}
+
+#main .descript {
+    border-right: 1px solid #fff;
+    right: 5%;
+    top: 20%;
+
+}
+
+/*SECTION O-mnie*/
+
+#about {
+    background-image: url(../image/2.jpg);
+    background-size: 120%;
+    background-attachment: fixed;
+}
+
+#about .descript {
+    border-left: 1px solid #fff;
+    left: 5%;
+    top: 15%;
+}
+
+/*SECTION Experience*/
+
+#experience .exp-image-bgb {
+    height: 100vh;
+    width: 100%;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all 0.5s;
+}
+
+#experience .row {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+#experience .exp-image-bg {
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+
+}
+
+#experience .exp-image-1 {
+    background-image: url(../image/experience/3.jpg)
+}
+
+#experience .des-smaller {
+    font-size: 20px;
+}
+
+#experience .exp-image-2 {
+    background-image: url(../image/experience/3a.jpg);
+
+}
+
+#experience .exp-image-3 {
+    background-image: url(../image/experience/3b.jpg)
+}
+
+#experience .exp-image-4 {
+    background-image: url(../image/experience/3c.jpg)
+}
+
+#experience .exp-image-5 {
+    background-image: url(../image/experience/3d.jpg)
+}
+
+#experience .exp-image-6 {
+    background-image: url(../image/experience/4.jpg)
+}
+
+#experience .exp-image-7 {
+    background-image: url(../image/experience/7.jpg)
+}
+
+#experience .exp-image-8 {
+    background-image: url(../image/experience/8.jpg)
+}
+
+#experience .exp-image-1 div {
+    border-left: 1px solid #fff;
+    left: 5%;
+    top: 15%;
+}
+
+#experience .exp-image-2 .descript {
+    top: 10%;
+    right: 5%;
+    border-right: 1px solid #fff;
+}
+
+#experience .exp-image-3 .descript {
+    top: 10%;
+    right: 5%;
+    border-right: 1px solid #fff;
+}
+
+#experience .exp-image-4 .descript {
+    top: 15%;
+    right: 5%;
+    border-right: 1px solid #fff;
+}
+
+#experience .exp-image-5 .descript {
+    top: 15%;
+    left: 5%;
+    border-left: 1px solid #fff;
+}
+
+#experience .exp-image-6 div {
+    border-right: 1px solid #fff;
+    right: 5%;
+    top: 10%;
+}
+
+#experience .exp-image-7 div {
+    border-right: 1px solid #fff;
+    right: 5%;
+    top: 5%;
+}
+
+#experience .exp-image-8 div {
+    border-right: 1px solid #fff;
+    right: 5%;
+    top: 15%;
+}
+
+#experience .akademia108 .descript {
+    border-right: 1px solid #fff;
+    right: 5%;
+    top: 15%;
+}
+
+#experience .akademia108-bg {
+    margin: 0;
+    /*    display: flex;*/
+}
+
+#experience .mask {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 0;
+    transition: all 2s;
+
+}
+
+#experience .mask .border {
+    height: 90%;
+    width: 90%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+#experience .exp-image-mask-1 {
+    background-image: url(../image/experience/3a_m.jpg);
+}
+
+#experience .exp-image-mask-2 {
+    background-image: url(../image/experience/3b_m.jpg);
+}
+
+#experience .exp-image-mask-3 {
+    background-image: url(../image/experience/3c_m.jpg);
+}
+
+#experience .exp-image-mask-4 {
+    background-image: url(../image/experience/3d_m.jpg);
+}
+
+#experience .exp-image-2:hover .exp-image-mask-1 {
+    opacity: 1;
+}
+
+#experience .exp-image-2:hover .descript {
+    visibility: hidden;
+}
+
+#experience .exp-image-3:hover .exp-image-mask-2 {
+    opacity: 1;
+}
+
+#experience .exp-image-3:hover .descript {
+    visibility: hidden;
+}
+
+#experience .exp-image-4:hover .exp-image-mask-3 {
+    opacity: 1;
+}
+
+#experience .exp-image-4:hover .descript {
+    visibility: hidden;
+}
+
+#experience .exp-image-5:hover .exp-image-mask-4 {
+    opacity: 1;
+}
+
+#experience .exp-image-5:hover .descript {
+    visibility: hidden;
+}
+
+#experience .akademia108 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.50), rgba(9, 15, 121, 0.80));
+    background-size: cover;
+    position: relative;
+}
+#experience .insinde-logo{
+    position: absolute;
+    top:0;
+    background-image: url(../image/experience/logoA108.png);
+    width: 60%;
+    height:80%;
+    background-size: cover;
+}
+#experience .akademia108-bg {
+    background: linear-gradient(to right, rgba(9, 15, 121, 0.80), rgba(9, 15, 121, 1));
+}
+
+#experience .skills-cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#experience .skills-item {
+    margin: 1% 5%;
+    align-items: center;
+
+}
+
+/*SECTION Portfolio*/
+
+#portfolio {
+    margin: 0;
+    height: auto;
+}
+#portfolio .description {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*PORTFOLIO POZOSTAŁE*/
+
+#portfolio .portfolio-rest {
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio .portf-rest-carousel {
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+#portfolio .portf-rest-carousel-item {
+    height: 50vh;
+    background-size: contain;
+    background-position: center;
+}
+#portfolio .exp-image-bgb {
+    height: 100vh;
+    width: 100%;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all 0.5s;
+}
+#portfolio .bcd {
+    /*    height: auto;*/
+    margin: 0;
+    padding: 0;
+
+}
+
+#portfolio .bcd-content {
+    width: auto;
+}
+
+#portfolio .bcd-carousel-item {
+    height: 100vh;
+    background-size: cover;
+}
+
+/*Plakaty BCD*/
+
+#portfolio .bcd-img-1 {
+    background-image: url(../image/portfolio/bcd/2016_plakat_jubileusz2.jpg);
+}
+
+#portfolio .bcd-img-2 {
+    background-image: url(../image/portfolio/bcd/2018_plakat_szachy.jpg);
+}
+
+#portfolio .bcd-img-3 {
+    background-image: url(../image/portfolio/bcd/2017_plakat_Wesele.jpg);
+}
+
+#portfolio .bcd-img-4 {
+    background-image: url(../image/portfolio/bcd/2017_plakat_kiedyPolska.jpg);
+}
+
+#portfolio .bcd-img-5 {
+    background-image: url(../image/portfolio/bcd/2017_plakat_Spiaca.jpg);
+}
+
+#portfolio .bcd-img-6 {
+    background-image: url(../image/portfolio/bcd/2016_spiaca1.jpg);
+}
+
+#portfolio .bcd-img-7 {
+    background-image: url(../image/portfolio/bcd/Wesele_Budapest_2017.jpg);
+}
+
+/*Plakaty Czas na Taniec*/
+
+#portfolio .czasnt-img-1 {
+    background-image: url(../image/portfolio/cznt/czasnataniec13.jpg);
+}
+
+#portfolio .czasnt-img-2 {
+    background-image: url(../image/portfolio/cznt/czasnataniec14.jpg);
+}
+
+#portfolio .czasnt-img-3 {
+    background-image: url(../image/portfolio/cznt/czasnataniec17.jpg);
+}
+
+#portfolio .czasnt-img-4 {
+    background-image: url(../image/portfolio/cznt/czasnataniec19.jpg);
+}
+
+#portfolio .czasnt-img-5 {
+    background-image: url(../image/portfolio/cznt/czasnataniec21.jpg);
+}
+
+#portfolio .czasnt-img-6 {
+    background-image: url(../image/portfolio/cznt/czasnataniec23.jpg);
+}
+
+#portfolio .czasnt-img-7 {
+    background-image: url(../image/portfolio/cznt/czasnataniec25.jpg);
+}
+
+#portfolio .czasnt-img-8 {
+    background-image: url(../image/portfolio/cznt/czasnataniec26.jpg);
+}
+
+#portfolio .czasnt-img-9 {
+    background-image: url(../image/portfolio/cznt/czasnataniec27.jpg);
+}
+
+#portfolio .czasnt-img-10 {
+    background-image: url(../image/portfolio/cznt/czasnataniec28.jpg);
+}
+
+#portfolio .czasnt-img-11 {
+    background-image: url(../image/portfolio/cznt/czasnataniec29.jpg);
+}
+
+#portfolio .czasnt-img-12 {
+    background-image: url(../image/portfolio/cznt/czasnataniec30.jpg);
+}
+
+#portfolio .czasnt-img-13 {
+    background-image: url(../image/portfolio/cznt/czasnataniec31.jpg);
+}
+
+#portfolio .czasnt-img-14 {
+    background-image: url(../image/portfolio/cznt/czasnataniec32.jpg);
+}
+
+/*Plakaty FTD*/
+
+#portfolio .ftd-img-1 {
+    background-image: url(../image/portfolio/ftd/2017_plakat.jpg);
+}
+
+#portfolio .ftd-img-2 {
+    background-image: url(../image/portfolio/ftd/PLAKAT_FTD.jpg);
+}
+
+#portfolio .ftd-img-3 {
+    background-image: url(../image/portfolio/ftd/plakat2015.jpg);
+}
+
+#portfolio .ftd-img-4 {
+    background-image: url(../image/portfolio/ftd/plakat9.jpg);
+}
+
+#portfolio .ftd-img-5 {
+    background-image: url(../image/portfolio/ftd/Gdy%20Polska%20spotyka%20Indie.jpg);
+}
+
+#portfolio .ftd-img-6 {
+    background-image: url(../image/portfolio/ftd/2016_wolontariat.jpg);
+}
+
+/*CREATOR*/
+
+#portfolio .portf-another {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    
+}
+
+#portfolio .exp-image-bgm {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    
+
+}
+/*
+#portfolio .exp-image-bg-rest {
+    position: relative;
+height: 80vh;
+    width: 100%;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all 0.5s;
+
+}
+*/
+#portfolio .descript-3 {
+    position: absolute;
+    border-right: 1px solid #fff;
+    right: 10%;
+    top: 25%;
+    width: 65%;
+
+}
+#portfolio .portf-another .descript-1 {
+    position: absolute;
+    border-right: 1px solid #fff;
+    right: 5%;
+    top: 30%;
+    width: 65%;
+    padding-right: 5%;
+
+}
+
+#portfolio .exp-image-bgb .descript-2 {
+    position: absolute;
+    border-left: 1px solid #fff;
+    left: 15%;
+    top: 15%;
+    width: 65%;
+
+}
+
+#portfolio .portf-image-1:hover .descript-1 {
+    visibility: hidden;
+}
+
+#portfolio .portf-image-2:hover .descript-2 {
+/*    visibility: hidden;*/
+}
+
+#portfolio .portf-image-mask-1 {
+    background-image: url(../image/portfolio/konkurs-maska.jpg);
+    width: 100%;
+}
+
+#portfolio .portf-image-mask-2 {
+    background-image: url(../image/portfolio/diy-maska.jpg);
+}
+
+#portfolio .mask {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 0;
+    transition: all 2s;
+}
+
+#portfolio .portf-image-1:hover .portf-image-mask-1 {
+    opacity: 1;
+}
+
+#portfolio .portf-image-2:hover .portf-image-mask-2 {
+/*    opacity: 1;*/
+}
+
+
+#portfolio .mask .border {
+    height: 90%;
+    width: 90%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#portfolio .portf-another .creator {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#portfolio .portf-another .creator-descript{
+    height: 20vh;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#portfolio .portf-another .creator{
+    height: 100%;
+    width: 50%;
+}
+
+#portfolio .des-smaller {
+    font-size: 20px;
+}
+
+#portfolio .creator-content {
+    width: auto;
+}
+
+#portfolio .creator-carousel-item {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .portf-image-1 {
+    background-image: url(../image/portfolio/konkurs.jpg);
+}
+
+#portfolio .portf-image-2 {
+    background-image: url(../image/portfolio/diy.jpg);
+}
+#portfolio .portf-image-3 {
+    background-image: url(../image/portfolio/11.jpg);
+}
+
+/*Praca CREATOR*/
+
+#portfolio .creator-img-1 {
+    background-image: url(../image/portfolio/kurs/00_tytulowa.jpg)
+}
+
+#portfolio .creator-img-2 {
+    background-image: url(../image/portfolio/kurs/01_inspiracje.jpg)
+}
+
+#portfolio .creator-img-3 {
+    background-image: url(../image/portfolio/kurs/02_rzut%20m_inwentaryzacja.jpg)
+}
+
+#portfolio .creator-img-4 {
+    background-image: url(../image/portfolio/kurs/03_rzut%20m_sciany.jpg)
+}
+
+#portfolio .creator-img-5 {
+    background-image: url(../image/portfolio/kurs/04_rzut%20m.jpg)
+}
+
+#portfolio .creator-img-6 {
+    background-image: url(../image/portfolio/kurs/05_projekt.jpg)
+}
+
+#portfolio .creator-img-7 {
+    background-image: url(../image/portfolio/kurs/06_podlogi.jpg)
+}
+
+#portfolio .creator-img-8 {
+    background-image: url(../image/portfolio/kurs/07_instalacja%20elektryczna.jpg)
+}
+
+#portfolio .creator-img-9 {
+    background-image: url(../image/portfolio/kurs/08_kuchnia.jpg)
+}
+
+#portfolio .creator-img-10 {
+    background-image: url(../image/portfolio/kurs/09_kuchnia.jpg)
+}
+
+#portfolio .creator-img-11 {
+    background-image: url(../image/portfolio/kurs/10_salon.jpg)
+}
+
+#portfolio .creator-img-12 {
+    background-image: url(../image/portfolio/kurs/11_pokoj%20dzieci.jpg)
+}
+
+#portfolio .creator-img-13 {
+    background-image: url(../image/portfolio/kurs/12_pokoj%20dziec%20widoki.jpg)
+}
+
+#portfolio .creator-img-14 {
+    background-image: url(../image/portfolio/kurs/13_sypialnia.jpg)
+}
+
+#portfolio .creator-img-15 {
+    background-image: url(../image/portfolio/kurs/14_lazienka.jpg)
+}
+
+#portfolio .creator-img-16 {
+    background-image: url(../image/portfolio/kurs/15_przedpokoj.jpg)
+}
+
+#portfolio .creator-img-17 {
+    background-image: url(../image/portfolio/kurs/16_info.jpg)
+}
+
+/*Portfolio  Pozostałe*/
+
+#portfolio .portf-rest-img-1 {
+    background-image: url(../image/portfolio/pozostale/2016_zaproszenie_jubileusz_2.jpg)
+}
+
+#portfolio .portf-rest-img-2 {
+    background-image: url(../image/portfolio/pozostale/kartka1.jpg)
+}
+
+#portfolio .portf-rest-img-3 {
+    background-image: url(../image/portfolio/pozostale/kartka.jpg)
+}
+
+#portfolio .portf-rest-img-4 {
+    background-image: url(../image/portfolio/pozostale/kartka_2014_2.jpg)
+}
+
+#portfolio .portf-rest-img-5 {
+    background-image: url(../image/portfolio/pozostale/kartka_2015.jpg)
+}
+
+#portfolio .portf-rest-img-6 {
+    background-image: url(../image/portfolio/pozostale/baza.jpg)
+}
+
+#portfolio .portf-rest-img-7 {
+    background-image: url(../image/portfolio/pozostale/baza2.jpg)
+}
+
+#portfolio .portf-rest-img-8 {
+    background-image: url(../image/portfolio/pozostale/zaproszenie.jpg)
+}
+
+#portfolio .portf-rest-img-9 {
+    background-image: url(../image/portfolio/pozostale/ALKOHOL.jpg)
+}
+
+#portfolio .portf-rest-img-10 {
+    background-image: url(../image/portfolio/pozostale/ciasto.jpg)
+}
+
+#portfolio .portf-rest-img-11 {
+    background-image: url(../image/portfolio/pozostale/winieta.jpg)
+}
+
+#portfolio .portf-rest-img-12 {
+    background-image: url(../image/portfolio/pozostale/DzieCiuszek.jpg)
+}
+
+#portfolio .portf-rest-img-13 {
+    background-image: url(../image/portfolio/pozostale/DzieCiuszek_8.jpg)
+}
+
+#portfolio .portf-rest-img-14 {
+    background-image: url(../image/portfolio/pozostale/logo6.jpg)
+}
+
+#portfolio .portf-rest-img-15 {
+    background-image: url(../image/portfolio/pozostale/logo_12.jpg)
+}
+
+#portfolio .portf-rest-img-16 {
+    background-image: url(../image/portfolio/pozostale/logo_AB_CMYK.jpg)
+}
+
+/*Contact Section*/
+
+#contact {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.35), rgba(9, 15, 121, 0.55)), url(../image/contact/Cow.jpg);
+    background-size: 120%;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+#contact .kontakt {
+    font-size: 20px;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    width: 50%;
+    ;
+
+}
+
+#contact p, #contact a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s;
+}
+
+#contact .contact-social-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+#contact .contact-social-icons .single-icon {
+    margin: 15px;
+    font-size: 30px;
+}
+#contact .contact-social-icons .single-icon a:hover {
+  color: #AF2584;
+    font-size: 40px;
+    text-shadow: 1px 1px #000;
+}
+
+.footer{
+    background-color: #7B82B6;
+    color: #fff;
+    font-size: 10px;
+}
+/*NAVIGATION + JS*/
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #AF2584;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+}
+#main-nav .ania, #contact .ania {
+    font-family: 'Kalam', cursive;
+/*    font-family: 'Rock Salt', cursive;*/
+    font-weight: bold;
+     text-transform: uppercase;
+    font-size: 35px;
+    color: #AF2584;
+    text-shadow: 1px 1px #000;
+}
+/*
+.active_underlined a {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+*/
+
+a.active_underlined {
+    color: #fff;
+    text-transform: uppercase;
+font-family: 'Kalam', cursive;
+    font-size: 40px;
+/*      border-bottom: 2px solid #ebebeb;*/
+}
